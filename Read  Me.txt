@@ -1,0 +1,18 @@
+I made a few modifications to the one I sent earlier, 
+instead of filling the form via Google forms we 
+can fill the form locally and save in database and CSV file as wel, 
+then run the print script to generate the printable format.
+
+The feature of running the script for a CSV file from Google forms 
+is still available on the platform.
+The readme file in the root directory has detailed information on how it should be run.
+
+When we're ready to generate ID cards, we download the csv format of the response sheet of the Google form,
+or copy the reg.csv file in this directory,
+then rename as accf.csv and replace the one in "/src" folder with this new one.
+
+Then open the index.php file, to generate cards.
+I created several frames as could be viewed in the /frames directory, corrections could 
+also be made to the frame before generating the id cards. The frame in use is frame.png
+
+
